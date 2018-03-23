@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		BC077E1120641D1D0036250C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC077E1020641D1D0036250C /* AppDelegate.swift */; };
-		BC077E1320641D1D0036250C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC077E1220641D1D0036250C /* ViewController.swift */; };
-		BC077E1620641D1D0036250C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC077E1420641D1D0036250C /* Main.storyboard */; };
+		BC077E1320641D1D0036250C /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC077E1220641D1D0036250C /* BlueViewController.swift */; };
 		BC077E1820641D1D0036250C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC077E1720641D1D0036250C /* Assets.xcassets */; };
 		BC077E1B20641D1D0036250C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC077E1920641D1D0036250C /* LaunchScreen.storyboard */; };
-		BC077E2620641D1D0036250C /* Coordinator_PatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC077E2520641D1D0036250C /* Coordinator_PatternTests.swift */; };
+		BC271C422065164E00CBB651 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC271C412065164E00CBB651 /* RedViewController.swift */; };
+		BC271C442065166600CBB651 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC271C432065166600CBB651 /* GreenViewController.swift */; };
+		BC271C49206516DA00CBB651 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC271C48206516DA00CBB651 /* Coordinator.swift */; };
+		BC271C4B2065175200CBB651 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC271C4A2065175200CBB651 /* AppCoordinator.swift */; };
+		BC271C5120653DE500CBB651 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC271C5020653DE500CBB651 /* HomeViewController.swift */; };
+		BC271C5520653FFC00CBB651 /* FullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC271C5420653FFC00CBB651 /* FullViewController.swift */; };
+		BC271C57206540EE00CBB651 /* ThreeQuartersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC271C56206540EE00CBB651 /* ThreeQuartersViewController.swift */; };
+		BC271C592065412D00CBB651 /* HalfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC271C582065412D00CBB651 /* HalfViewController.swift */; };
+		BC271C5B2065424400CBB651 /* ColorCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC271C5A2065424400CBB651 /* ColorCoordinator.swift */; };
+		BC271C5D206543EA00CBB651 /* AlphaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC271C5C206543EA00CBB651 /* AlphaCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +36,21 @@
 /* Begin PBXFileReference section */
 		BC077E0D20641D1D0036250C /* Coordinator Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coordinator Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC077E1020641D1D0036250C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC077E1220641D1D0036250C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC077E1520641D1D0036250C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC077E1220641D1D0036250C /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		BC077E1720641D1D0036250C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC077E1A20641D1D0036250C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC077E1C20641D1D0036250C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC077E2120641D1D0036250C /* Coordinator PatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coordinator PatternTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC077E2520641D1D0036250C /* Coordinator_PatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator_PatternTests.swift; sourceTree = "<group>"; };
-		BC077E2720641D1D0036250C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC271C412065164E00CBB651 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		BC271C432065166600CBB651 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		BC271C48206516DA00CBB651 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BC271C4A2065175200CBB651 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BC271C5020653DE500CBB651 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BC271C5420653FFC00CBB651 /* FullViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullViewController.swift; sourceTree = "<group>"; };
+		BC271C56206540EE00CBB651 /* ThreeQuartersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeQuartersViewController.swift; sourceTree = "<group>"; };
+		BC271C582065412D00CBB651 /* HalfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfViewController.swift; sourceTree = "<group>"; };
+		BC271C5A2065424400CBB651 /* ColorCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCoordinator.swift; sourceTree = "<group>"; };
+		BC271C5C206543EA00CBB651 /* AlphaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				BC077E0F20641D1D0036250C /* Coordinator Pattern */,
-				BC077E2420641D1D0036250C /* Coordinator PatternTests */,
 				BC077E0E20641D1D0036250C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,23 +91,63 @@
 		BC077E0F20641D1D0036250C /* Coordinator Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				BC271C47206516BD00CBB651 /* Coordinator */,
 				BC077E1020641D1D0036250C /* AppDelegate.swift */,
-				BC077E1220641D1D0036250C /* ViewController.swift */,
-				BC077E1420641D1D0036250C /* Main.storyboard */,
-				BC077E1720641D1D0036250C /* Assets.xcassets */,
-				BC077E1920641D1D0036250C /* LaunchScreen.storyboard */,
-				BC077E1C20641D1D0036250C /* Info.plist */,
+				BC271C46206516AD00CBB651 /* Other */,
+				BC271C452065169300CBB651 /* ViewController */,
 			);
 			path = "Coordinator Pattern";
 			sourceTree = "<group>";
 		};
-		BC077E2420641D1D0036250C /* Coordinator PatternTests */ = {
+		BC271C452065169300CBB651 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BC077E2520641D1D0036250C /* Coordinator_PatternTests.swift */,
-				BC077E2720641D1D0036250C /* Info.plist */,
+				BC271C5320653FD600CBB651 /* Alphas */,
+				BC271C5220653FC200CBB651 /* Colors */,
+				BC271C5020653DE500CBB651 /* HomeViewController.swift */,
 			);
-			path = "Coordinator PatternTests";
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BC271C46206516AD00CBB651 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BC077E1C20641D1D0036250C /* Info.plist */,
+				BC077E1720641D1D0036250C /* Assets.xcassets */,
+				BC077E1920641D1D0036250C /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BC271C47206516BD00CBB651 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BC271C48206516DA00CBB651 /* Coordinator.swift */,
+				BC271C4A2065175200CBB651 /* AppCoordinator.swift */,
+				BC271C5A2065424400CBB651 /* ColorCoordinator.swift */,
+				BC271C5C206543EA00CBB651 /* AlphaCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BC271C5220653FC200CBB651 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				BC077E1220641D1D0036250C /* BlueViewController.swift */,
+				BC271C432065166600CBB651 /* GreenViewController.swift */,
+				BC271C412065164E00CBB651 /* RedViewController.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		BC271C5320653FD600CBB651 /* Alphas */ = {
+			isa = PBXGroup;
+			children = (
+				BC271C5420653FFC00CBB651 /* FullViewController.swift */,
+				BC271C56206540EE00CBB651 /* ThreeQuartersViewController.swift */,
+				BC271C582065412D00CBB651 /* HalfViewController.swift */,
+			);
+			path = Alphas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +200,7 @@
 				TargetAttributes = {
 					BC077E0C20641D1D0036250C = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					BC077E2020641D1D0036250C = {
 						CreatedOnToolsVersion = 9.2;
@@ -181,7 +235,6 @@
 			files = (
 				BC077E1B20641D1D0036250C /* LaunchScreen.storyboard in Resources */,
 				BC077E1820641D1D0036250C /* Assets.xcassets in Resources */,
-				BC077E1620641D1D0036250C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +252,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC077E1320641D1D0036250C /* ViewController.swift in Sources */,
+				BC271C4B2065175200CBB651 /* AppCoordinator.swift in Sources */,
+				BC271C592065412D00CBB651 /* HalfViewController.swift in Sources */,
+				BC271C442065166600CBB651 /* GreenViewController.swift in Sources */,
+				BC077E1320641D1D0036250C /* BlueViewController.swift in Sources */,
+				BC271C49206516DA00CBB651 /* Coordinator.swift in Sources */,
+				BC271C57206540EE00CBB651 /* ThreeQuartersViewController.swift in Sources */,
+				BC271C5B2065424400CBB651 /* ColorCoordinator.swift in Sources */,
+				BC271C422065164E00CBB651 /* RedViewController.swift in Sources */,
+				BC271C5520653FFC00CBB651 /* FullViewController.swift in Sources */,
+				BC271C5120653DE500CBB651 /* HomeViewController.swift in Sources */,
 				BC077E1120641D1D0036250C /* AppDelegate.swift in Sources */,
+				BC271C5D206543EA00CBB651 /* AlphaCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC077E2620641D1D0036250C /* Coordinator_PatternTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +285,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BC077E1420641D1D0036250C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC077E1520641D1D0036250C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC077E1920641D1D0036250C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,11 +407,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Coordinator Pattern/Info.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Coordinator Pattern/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "M-S.Coordinator-Pattern";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,11 +423,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Coordinator Pattern/Info.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Coordinator Pattern/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "M-S.Coordinator-Pattern";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
